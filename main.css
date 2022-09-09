@@ -4,13 +4,105 @@
 /* Holds all the Contents */
 .Container{
 
+<<<<<<< HEAD
+    background-color: black;
+    height:100vh;
+=======
     background-color: azure;
     margin: 0px;
+>>>>>>> 6d49229925bddcd312226b7369c986d35e7300e1
 }
 /*  Navigation bar */
 .Navbar{
     background-color: beige;
+<<<<<<< HEAD
+    flex: column;
+=======
     
+>>>>>>> 6d49229925bddcd312226b7369c986d35e7300e1
+}
+
+.Navbar p{
+    font-size: 30px;
+    color: black;
+    padding: 1rem 1rem 0rem 0rem;
+    text-align: center;
+}
+
+.Navbar a{
+    color: black;
+    text-decoration: none;
+    font-size: 50px;
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 10px;
+    align: center;
+}
+/* top, right, bottom, left */
+
+.Navbar a:hover{
+
+    color:blue ;
+
+}
+
+/* Purpose of the page */
+
+.purpose{
+    font-size: 20px;
+    background-color: azure;
+    color: black;
+    margin: 20px;
+    height:300px;
+    
+    
+}
+
+.purpose p{
+padding: 10px 20px 10px 20px;
+
+}
+
+<<<<<<< HEAD
+=======
+.purpose a{
+
+}
+
+/* Showcase of Projects */
+.projects{
+    color: white;
+    padding: 40px;
+}
+
+>>>>>>> 6d49229925bddcd312226b7369c986d35e7300e1
+
+/* Footer */
+
+.Footer{   
+    margin: 0px;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+
+}
+
+
+
+/* Moblie Version */
+
+@media screen and (max-width: 800px) {
+
+ /* Holds all the Contents */
+.Container{
+
+    background-color: azure;
+
+}
+/*  Navigation bar */
+.Navbar{
+    background-color: beige;
+    flex: column;
 }
 
 .Navbar p{
@@ -45,6 +137,7 @@
     margin: 20px;
     
     
+<<<<<<< HEAD
 }
 
 .purpose p{
@@ -52,15 +145,7 @@ padding: 10px 20px 10px 20px;
 
 }
 
-.purpose a{
 
-}
-
-/* Showcase of Projects */
-.projects{
-    color: white;
-    padding: 40px;
-}
 
 
 /* Footer */
@@ -72,81 +157,7 @@ padding: 10px 20px 10px 20px;
 }
 
 }
-
-
-
-/* Moblie Version */
-
-@media screen and (max-width: 800px) {
-
-    /* Holds all the Contents */
-    .Container{
-    
-        background-color: black;
-        margin: 0px;
-    }
-    /*  Navigation bar */
-    .Navbar{
-        background-color: grey;
-        
-    }
-    
-    .Navbar p{
-        font-size: 30px;
-        color: white;
-        padding: 20px 50px 10px 20px;
-        text-align: center;
-    }
-    
-    .Navbar a{
-        color: white;
-        text-decoration: none;
-        font-size: 50px;
-        margin: auto;
-        align: center;
-    }
-    
-    .Navbar a:hover{
-    
-        color:black ;
-    
-    }
-    
-    /* Purpose of the page */
-    
-    .purpose{
-        font-size: 20px;
-        background-color: black;
-        color: white;
-        margin: 20px;
-        
-        
-    }
-    
-    .purpose p{
-    padding: 10px 20px 10px 20px;
-    
-    }
-    
-    .purpose a{
-    
-    }
-    
-    /* Showcase of Projects */
-    .projects{
-        color: white;
-        padding: 40px;
-    }
-    .projects{
-        
-    }
-    .projects ul{
-        list-style: none;
-
-    }
-    
-    /* Footer */
-    
+=======
     .Footer{   
         margin: 0px;
         background-color: black;
@@ -154,3 +165,4 @@ padding: 10px 20px 10px 20px;
     }
     
     }
+>>>>>>> 6d49229925bddcd312226b7369c986d35e7300e1

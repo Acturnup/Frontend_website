@@ -1,0 +1,374 @@
+html, body{
+    margin: 0; 
+    padding:0;
+}
+/* Website Desktop version */
+@media screen and (min-width: 800px) {
+
+    /* Holds all the Contents */
+    .BigContainer{
+        background-color: black;
+        height: 100vh;
+    }
+    .BigContainer_Pages{
+        background-color: black;
+        height: 104vh;
+    }
+    .Navbar{
+        background-color: beige;
+        padding:20px;
+    }
+    
+    .Navbar p{
+        font-size: 30px;
+        color: black;
+        /* padding: 1rem 0rem 0rem 0rem; */
+        text-align: center;
+    }
+
+    .Container {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+        background-color: black;
+        padding: 20px;
+        align-content: space-between;
+    }
+    .box1 {
+        min-height: 100px;
+        background-color: blue;
+        font-size:50px;
+        padding:50px;
+    }
+    .box1 a{
+        color: white;
+        text-decoration: none;
+    }
+    .box1:hover{
+        background-color: burlywood;
+    }
+
+    .box2 {
+        min-height: 100px;
+        background-color: blue;
+        font-size:50px;
+        padding:50px;
+    }
+
+    .box2 a{
+        color: white;
+        text-decoration: none;
+    }
+    .box2:hover{
+        background-color: burlywood;
+    }
+    .box3 {
+        min-height: 100px;
+        background-color: blue;
+        font-size:50px;
+        padding:50px;
+    }
+    .box3:hover{
+        background-color: burlywood;
+    }
+    .box3 a{
+        color: white;
+        text-decoration: none;
+    }
+
+    .box4 {
+        min-height: 100px;
+        background-color: blue;
+        font-size:50px;
+        padding:50px;
+    }
+    .box4 a{
+        color: white;
+        text-decoration: none;
+    }
+    .box4:hover{
+        background-color: burlywood;
+    }
+
+    .Labs {
+        color: white;
+        padding: 30px;
+        text-decoration: none;
+    }
+    .Labs a{
+        text-decoration: none; 
+    }
+    .Labs ul{
+        list-style: none;
+        font-size: 40px;
+        text-decoration: none;
+    }
+
+    .HomeButton {
+        font-size: 20px;
+        border: 0;
+        line-height: 2.5;
+        padding: 0 20px;
+        font-size: 1rem;
+        text-align: center;
+        color:black;
+        text-shadow: 1px 1px 1px #000;
+        border-radius: 10px;
+        background-color: white;
+        box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                    inset -2px -2px 3px rgba(0, 0, 0, .6);
+
+    }
+    
+}
+
+/* Tablet Version */
+
+@media screen and (max-width: 1000px) {
+
+    /* Holds all the Contents */
+    .BigContainer{
+       background-color: black;
+       height: 100vh;
+   }
+   .BigContainer_Pages{
+    background-color: black;
+    height: 104vh;
+}
+   .Navbar{
+       background-color: beige;
+       padding:20px;
+   }
+   
+   .Navbar p{
+       font-size: 30px;
+       color: black;
+       /* padding: 1rem 0rem 0rem 0rem; */
+       text-align: center;
+   }
+
+   .Container {
+       display:flex;
+       flex-direction: column;
+       gap: 100px;
+       justify-content: space-around;
+       flex-wrap: wrap;
+       align-items: center;
+       background-color: black;
+       padding: 20px;
+       align-content: space-between;
+   }
+   .box1 {
+       min-height: 100px;
+       background-color: blue;
+       font-size:50px;
+       padding:50px;
+   }
+   .box1 a{
+       color: white;
+       text-decoration: none;
+   }
+   .box1:hover{
+       background-color: burlywood;
+   }
+
+   .box2 {
+       min-height: 100px;
+       background-color: blue;
+       font-size:50px;
+       padding:50px;
+   }
+
+   .box2 a{
+       color: white;
+       text-decoration: none;
+   }
+   .box2:hover{
+       background-color: burlywood;
+   }
+   .box3 {
+       min-height: 100px;
+       background-color: blue;
+       font-size:50px;
+       padding:50px;
+   }
+   .box3:hover{
+       background-color: burlywood;
+   }
+   .box3 a{
+       color: white;
+       text-decoration: none;
+   }
+
+   .box4 {
+       min-height: 100px;
+       background-color: blue;
+       font-size:50px;
+       padding:50px;
+   }
+   .box4 a{
+       color: white;
+       text-decoration: none;
+   }
+   .box4:hover{
+       background-color: burlywood;
+   }
+
+    .Labs {
+        color: white;
+        padding: 30px;
+        text-decoration: none;
+    }
+    .Labs a{
+        text-decoration: none; 
+    }
+    .Labs ul{
+        list-style: none;
+        font-size: 40px;
+        text-decoration: none;
+    }
+
+    .HomeButton {
+        font-size: 20px;
+        border: 0;
+        line-height: 2.5;
+        padding: 0 20px;
+        font-size: 1rem;
+        text-align: center;
+        color:black;
+        text-shadow: 1px 1px 1px #000;
+        border-radius: 10px;
+        background-color: white;
+        box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                    inset -2px -2px 3px rgba(0, 0, 0, .6);
+
+    }
+   
+   
+}
+/* Moblie Version */
+@media screen and (max-width: 800px) {
+
+
+     /* Holds all the Contents */
+     .BigContainer{
+        background-color: black;
+        height: 100vh;
+    }
+    .BigContainer_Pages{
+        background-color: black;
+        height: 104vh;
+    }
+    .Navbar{
+        background-color: beige;
+        padding:20px;
+    }
+    
+    .Navbar p{
+        font-size: 30px;
+        color: black;
+        /* padding: 1rem 0rem 0rem 0rem; */
+        text-align: center;
+    }
+
+    .Container {
+        display:flex;
+        flex-direction: column;
+        gap: 50px;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+        background-color: black;
+        padding: 20px;
+        align-content: space-between;
+    }
+    .box1 {
+        min-height: 100px;
+        background-color: blue;
+        font-size:50px;
+        padding:50px;
+    }
+    .box1 a{
+        color: white;
+        text-decoration: none;
+    }
+    .box1:hover{
+        background-color: burlywood;
+    }
+
+    .box2 {
+        min-height: 100px;
+        background-color: blue;
+        font-size:50px;
+        padding:50px;
+    }
+
+    .box2 a{
+        color: white;
+        text-decoration: none;
+    }
+    .box2:hover{
+        background-color: burlywood;
+    }
+    .box3 {
+        min-height: 100px;
+        background-color: blue;
+        font-size:50px;
+        padding:50px;
+    }
+    .box3:hover{
+        background-color: burlywood;
+    }
+    .box3 a{
+        color: white;
+        text-decoration: none;
+    }
+
+    .box4 {
+        min-height: 100px;
+        background-color: blue;
+        font-size:50px;
+        padding:50px;
+    }
+    .box4 a{
+        color: white;
+        text-decoration: none;
+    }
+    .box4:hover{
+        background-color: burlywood;
+    }
+
+    .Labs {
+        color: white;
+        padding: 30px;
+        text-decoration: none;
+    }
+    .Labs a{
+        text-decoration: none; 
+    }
+    .Labs ul{
+        list-style: none;
+        font-size: 40px;
+        text-decoration: none;
+    }
+
+    .HomeButton {
+        font-size: 20px;
+        border: 0;
+        line-height: 2.5;
+        padding: 0 20px;
+        font-size: 1rem;
+        text-align: center;
+        color:black;
+        text-shadow: 1px 1px 1px #000;
+        border-radius: 10px;
+        background-color: white;
+        box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                    inset -2px -2px 3px rgba(0, 0, 0, .6);
+
+    }
+    
+    
+}
