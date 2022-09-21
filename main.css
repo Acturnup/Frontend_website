@@ -4,22 +4,13 @@
 /* Holds all the Contents */
 .Container{
 
-<<<<<<< HEAD
     background-color: black;
     height:100vh;
-=======
-    background-color: azure;
-    margin: 0px;
->>>>>>> 6d49229925bddcd312226b7369c986d35e7300e1
 }
 /*  Navigation bar */
 .Navbar{
     background-color: beige;
-<<<<<<< HEAD
     flex: column;
-=======
-    
->>>>>>> 6d49229925bddcd312226b7369c986d35e7300e1
 }
 
 .Navbar p{
@@ -62,19 +53,6 @@ padding: 10px 20px 10px 20px;
 
 }
 
-<<<<<<< HEAD
-=======
-.purpose a{
-
-}
-
-/* Showcase of Projects */
-.projects{
-    color: white;
-    padding: 40px;
-}
-
->>>>>>> 6d49229925bddcd312226b7369c986d35e7300e1
 
 /* Footer */
 
@@ -137,7 +115,6 @@ padding: 10px 20px 10px 20px;
     margin: 20px;
     
     
-<<<<<<< HEAD
 }
 
 .purpose p{
@@ -157,12 +134,3 @@ padding: 10px 20px 10px 20px;
 }
 
 }
-=======
-    .Footer{   
-        margin: 0px;
-        background-color: black;
-        color: white;
-    }
-    
-    }
->>>>>>> 6d49229925bddcd312226b7369c986d35e7300e1
